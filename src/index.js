@@ -1,5 +1,5 @@
 const express = require("express");
-require("dotenv").config;
+require('dotenv').config();
 const setupAndStartServer = async () => {
     // create express server
     const app = express();
